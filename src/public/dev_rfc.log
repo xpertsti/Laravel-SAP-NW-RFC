@@ -1,0 +1,2421 @@
+
+**** Log file opened at 2024-07-25 18:42:38.492836 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 829732
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 18:42:38.492852 [127954378619264] >> Info entry
+	Did not find config file /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public/sapnwrfc.ini.
+
+**** Log file opened at 2024-07-25 18:55:45.007554 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 851255
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 18:55:45.007474 [135414669412736] >> Error entry
+	[Handle: 99633925083504	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 18:55:45 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-25 18:58:12.271059 [135414669412736] >> Error entry
+	[Handle: 99633925444752	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 18:58:12 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+
+**** Log file opened at 2024-07-25 19:03:21.619606 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 864066
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:03:21.619442 [135806348188032] >> Error entry
+	[Handle: 110265776499024	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:03:21 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-25 19:06:35.343139 [135806348188032] >> Error entry
+	[Handle: 110265776510448	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:06:35 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+2024-07-25 19:08:00.911260 [135806348188032] >> Error entry
+	[Handle: 110265776584080	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:08:00 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     6
+
+2024-07-25 19:10:20.659122 [135806348188032] >> Error entry
+	[Handle: 110265776567792	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:10:20 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     8
+
+2024-07-25 19:14:59.352919 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:15:02.419222 [135806348188032] >> Error entry
+	[Handle: 110265776591280	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:15:02 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     10
+
+2024-07-25 19:17:35.319851 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:17:38.382767 [135806348188032] >> Error entry
+	[Handle: 110265776599152	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:17:38 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     12
+
+2024-07-25 19:19:08.077745 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:19:11.151321 [135806348188032] >> Error entry
+	[Handle: 110265776622432	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:19:11 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     14
+
+2024-07-25 19:19:56.211086 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:19:59.279216 [135806348188032] >> Error entry
+	[Handle: 110265776630304	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:19:59 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     16
+
+2024-07-25 19:21:49.872987 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:21:52.946729 [135806348188032] >> Error entry
+	[Handle: 110265776638720	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:21:52 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     18
+
+2024-07-25 19:24:56.040418 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:24:59.119120 [135806348188032] >> Error entry
+	[Handle: 110265775908112	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:24:59 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     20
+
+2024-07-25 19:25:40.315639 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:25:43.375227 [135806348188032] >> Error entry
+	[Handle: 110265776650208	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:25:43 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     22
+
+2024-07-25 19:27:18.116799 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:27:21.167077 [135806348188032] >> Error entry
+	[Handle: 110265776662192	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:27:21 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     24
+
+
+**** Log file opened at 2024-07-25 19:29:25.538293 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 894007
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:29:25.538055 [135322192775552] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:29:25.563286 [135322192775552] >> Error entry
+	[Handle: 100828995222832	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '127.0.0.1:3300' not reached
+TIME        Thu Jul 25 19:29:25 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 127.0.0.1:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     3
+
+
+**** Log file opened at 2024-07-25 19:31:54.492781 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 896536
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:31:54.492548 [129638442146176] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:31:54.525633 [129638442146176] >> Error entry
+	[Handle: 106985783274800	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '127.0.0.1:3300' not reached
+TIME        Thu Jul 25 19:31:54 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 127.0.0.1:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     3
+
+
+**** Log file opened at 2024-07-25 19:32:24.527685 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 897043
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:32:24.527447 [132033840216448] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:32:27.631272 [132033840216448] >> Error entry
+	[Handle: 104061700017520	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:32:27 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+
+**** Log file opened at 2024-07-29 12:03:06.134215 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 326308
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 12:03:06.122461 [136215125068160] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 12:03:09.274709 [136215125068160] >> Error entry
+	[Handle: 103557737079072	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 12:03:09 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-29 12:03:23.586057 [136215125068160] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 12:03:26.650633 [136215125068160] >> Error entry
+	[Handle: 103557737094000	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 12:03:26 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+
+**** Log file opened at 2024-07-29 12:04:57.548626 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 331110
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 12:04:57.548027 [137885644032384] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 12:05:00.667761 [137885644032384] >> Error entry
+	[Handle: 101864295287552	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 12:05:00 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+
+**** Log file opened at 2024-07-29 14:22:30.907618 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 539671
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 14:22:30.900796 [133304806939008] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:37:24.072441 [133304806939008] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:37:27.132504 [133304806939008] >> Error entry
+	[Handle: 109654591117888	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 14:37:27 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     3
+
+2024-07-29 14:39:53.575847 [133304806939008] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:39:56.633539 [133304806939008] >> Error entry
+	[Handle: 109654591152144	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 14:39:56 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     5
+
+
+**** Log file opened at 2024-07-29 14:41:28.112368 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 552785
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 14:41:28.112084 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:41:31.225755 [126896692382080] >> Error entry
+	[Handle: 100399617121088	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 14:41:31 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-29 14:43:30.787632 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:43:35.649877 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:43:36.006271 [126896692382080] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73696c5153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73696c57c181,0x17c181]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0xaa)[0x73696c5826d8,0x1826d8]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73696c4d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73696c585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73696c585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](Repository::queryFunctionMetaData(RfcConnectionBase*, _STL::basic_string<char16_t, _STL::char_traits<char16_t>, _STL::allocator<char16_t> > const&)+0x19b)[0x73696c4fa90f,0xfa90f]
+
+	libsapnwrfc.so[S](Repository::getFunctionDesc(RfcConnectionBase*, _STL::basic_string<char16_t, _STL::char_traits<char16_t>, _STL::allocator<char16_t> > const&)+0xd7)[0x73696c4feb31,0xfeb31]
+
+	libsapnwrfc.so[S](RfcGetFunctionDesc+0x1f9)[0x73696c4bcbf3,0xbcbf3]
+
+	sapnwrfc.so[F](zim_Connection_getFunction+0xab)[0x73697044df5b,0x8f5b]
+
+	php8.1[S](execute_ex+0x82ab)[0x5b5019888f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5b501988adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5b501981ae00,0x2e8e00]
+
+	php8.1[T][0x5b5019908daa,0x3d6daa]
+
+	php8.1[T][0x5b501990b3c1,0x3d93c1]
+
+	php8.1[T][0x5b5019909976,0x3d7976]
+
+	php8.1[T][0x5b501990c819,0x3da819]
+
+	php8.1[T][0x5b5019659ec3,0x127ec3]
+
+	libc.so.6[T][0x73696fc29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73696fc29e40,0x29e40]
+
+
+2024-07-29 14:47:32.811190 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:50:54.323584 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:51:21.852000 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:56:33.553153 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:57:05.853127 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:57:38.499043 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:58:11.024379 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:25:17.689819 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:25:35.664134 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:25:41.674282 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:32:20.227505 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:34:14.548064 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:39:24.127053 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:41:57.158564 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:44:16.317548 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:45:37.041429 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:45:56.016644 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:46:32.829887 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:46:53.497577 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:47:21.654861 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:51:40.593084 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:53:30.784580 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:54:16.215608 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:58:17.962853 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:58:18.554256 [126896692382080] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73696c5153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73696c57c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73696c529131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73696c52934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73696c57e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73696c57fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73696c580061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73696c58265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73696c4d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73696c585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73696c585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73696c4b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73697044d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5b5019888f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5b501988adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5b501981ae00,0x2e8e00]
+
+	php8.1[T][0x5b5019908daa,0x3d6daa]
+
+	php8.1[T][0x5b501990b3c1,0x3d93c1]
+
+	php8.1[T][0x5b5019909976,0x3d7976]
+
+	php8.1[T][0x5b501990c819,0x3da819]
+
+	php8.1[T][0x5b5019659ec3,0x127ec3]
+
+	libc.so.6[T][0x73696fc29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73696fc29e40,0x29e40]
+
+
+2024-07-29 15:58:18.567870 [126896692382080] >> Error entry
+	[Handle: 100399617232992	ConvID: 20465116	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-29 15:59:02.995503 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:59:03.407247 [126896692382080] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73696c5153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73696c57c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73696c529131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73696c52934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73696c57e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73696c57fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73696c580061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73696c58265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73696c4d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73696c585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73696c585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73696c4b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73697044d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5b5019888f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5b501988adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5b501981ae00,0x2e8e00]
+
+	php8.1[T][0x5b5019908daa,0x3d6daa]
+
+	php8.1[T][0x5b501990b3c1,0x3d93c1]
+
+	php8.1[T][0x5b5019909976,0x3d7976]
+
+	php8.1[T][0x5b501990c819,0x3da819]
+
+	php8.1[T][0x5b5019659ec3,0x127ec3]
+
+	libc.so.6[T][0x73696fc29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73696fc29e40,0x29e40]
+
+
+2024-07-29 15:59:03.409967 [126896692382080] >> Error entry
+	[Handle: 100399617232992	ConvID: 20515145	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+
+**** Log file opened at 2024-07-29 17:31:37.467183 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 09339
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 17:31:37.466659 [133029026965888] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-07-30 11:08:58.195480 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 305438
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-30 11:08:58.193309 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:03:06.606682 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:04:22.639437 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:06:30.100349 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:07:08.798186 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:08:21.787673 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:10:21.169794 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:10:52.832426 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:12:17.981683 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:15:38.839394 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:16:33.494972 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:17:14.198457 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:17:57.180879 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:18:23.600737 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:19:13.210694 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:19:30.107973 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:25:46.541607 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:27:35.883842 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:28:15.322927 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 13:29:23.937714 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 14:00:34.833124 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 14:01:52.997613 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 14:02:14.704382 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+2024-07-30 14:02:20.943995 [137103767218560] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-07-31 08:44:44.726220 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 202076
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-31 08:44:44.725882 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:45:19.156851 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:46:52.033552 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:47:20.696856 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:48:49.374801 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:49:18.739430 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:49:45.287013 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:50:04.343702 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:50:08.440706 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:50:29.719864 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:52:01.451096 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:52:48.750083 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:53:07.060571 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:54:20.432057 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:56:49.988449 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 08:59:34.913161 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:00:34.308904 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:05:55.156965 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:13:30.952174 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:13:48.616041 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:17:07.438067 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:17:29.112392 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:19:36.486583 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:21:09.770460 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:21:51.348281 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:25:53.242299 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:26:17.371614 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:26:36.323195 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:27:31.531445 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:28:10.555614 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:29:39.245195 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:30:12.909949 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:31:13.354196 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:32:15.606358 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:32:20.087811 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:32:39.430934 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:33:20.806121 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:33:41.103659 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:34:56.347637 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:36:24.460600 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:36:49.033984 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:37:52.150040 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:41:38.428431 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:42:09.571020 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:42:09.977916 [125979970619776] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7293fb7153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7293fb77c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7293fb729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7293fb72934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7293fb77e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7293fb77fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7293fb780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7293fb78265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7293fb6d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7293fb785815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7293fb785a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7293fb6b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7293ff64d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x59b3f1588f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x59b3f158adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x59b3f151ae00,0x2e8e00]
+
+	php8.1[T][0x59b3f1608daa,0x3d6daa]
+
+	php8.1[T][0x59b3f160b3c1,0x3d93c1]
+
+	php8.1[T][0x59b3f1609976,0x3d7976]
+
+	php8.1[T][0x59b3f160c819,0x3da819]
+
+	php8.1[T][0x59b3f1359ec3,0x127ec3]
+
+	libc.so.6[T][0x7293fee29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7293fee29e40,0x29e40]
+
+
+2024-07-31 09:42:09.993086 [125979970619776] >> Error entry
+	[Handle: 98629422812272	ConvID: 70427420	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-31 09:42:39.887269 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:42:40.281597 [125979970619776] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7293fb7153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7293fb77c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7293fb729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7293fb72934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7293fb77e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7293fb77fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7293fb780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7293fb78265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7293fb6d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7293fb785815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7293fb785a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7293fb6b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7293ff64d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x59b3f1588f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x59b3f158adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x59b3f151ae00,0x2e8e00]
+
+	php8.1[T][0x59b3f1608daa,0x3d6daa]
+
+	php8.1[T][0x59b3f160b3c1,0x3d93c1]
+
+	php8.1[T][0x59b3f1609976,0x3d7976]
+
+	php8.1[T][0x59b3f160c819,0x3da819]
+
+	php8.1[T][0x59b3f1359ec3,0x127ec3]
+
+	libc.so.6[T][0x7293fee29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7293fee29e40,0x29e40]
+
+
+2024-07-31 09:42:40.283534 [125979970619776] >> Error entry
+	[Handle: 98629422564432	ConvID: 70458723	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-31 09:43:14.010704 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:43:19.787908 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:43:20.181590 [125979970619776] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7293fb7153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7293fb77c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7293fb729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7293fb72934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7293fb77e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7293fb77fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7293fb780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7293fb78265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7293fb6d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7293fb785815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7293fb785a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7293fb6b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7293ff64d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x59b3f1588f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x59b3f158adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x59b3f151ae00,0x2e8e00]
+
+	php8.1[T][0x59b3f1608daa,0x3d6daa]
+
+	php8.1[T][0x59b3f160b3c1,0x3d93c1]
+
+	php8.1[T][0x59b3f1609976,0x3d7976]
+
+	php8.1[T][0x59b3f160c819,0x3da819]
+
+	php8.1[T][0x59b3f1359ec3,0x127ec3]
+
+	libc.so.6[T][0x7293fee29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7293fee29e40,0x29e40]
+
+
+2024-07-31 09:43:20.183244 [125979970619776] >> Error entry
+	[Handle: 98629422811984	ConvID: 70500633	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-31 09:43:24.698321 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:43:25.100164 [125979970619776] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7293fb7153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7293fb77c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7293fb729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7293fb72934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7293fb77e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7293fb77fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7293fb780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7293fb78265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7293fb6d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7293fb785815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7293fb785a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7293fb6b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7293ff64d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x59b3f1588f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x59b3f158adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x59b3f151ae00,0x2e8e00]
+
+	php8.1[T][0x59b3f1608daa,0x3d6daa]
+
+	php8.1[T][0x59b3f160b3c1,0x3d93c1]
+
+	php8.1[T][0x59b3f1609976,0x3d7976]
+
+	php8.1[T][0x59b3f160c819,0x3da819]
+
+	php8.1[T][0x59b3f1359ec3,0x127ec3]
+
+	libc.so.6[T][0x7293fee29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7293fee29e40,0x29e40]
+
+
+2024-07-31 09:43:25.101482 [125979970619776] >> Error entry
+	[Handle: 98629422811984	ConvID: 70506550	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-31 09:44:29.768694 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:44:30.228892 [125979970619776] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7293fb7153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7293fb77c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7293fb729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7293fb72934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7293fb77e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7293fb77fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7293fb780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7293fb78265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7293fb6d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7293fb785815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7293fb785a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7293fb6b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7293ff64d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x59b3f1588f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x59b3f158adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x59b3f151ae00,0x2e8e00]
+
+	php8.1[T][0x59b3f1608daa,0x3d6daa]
+
+	php8.1[T][0x59b3f160b3c1,0x3d93c1]
+
+	php8.1[T][0x59b3f1609976,0x3d7976]
+
+	php8.1[T][0x59b3f160c819,0x3da819]
+
+	php8.1[T][0x59b3f1359ec3,0x127ec3]
+
+	libc.so.6[T][0x7293fee29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7293fee29e40,0x29e40]
+
+
+2024-07-31 09:44:30.231212 [125979970619776] >> Error entry
+	[Handle: 98629422811984	ConvID: 70572639	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-31 09:44:50.360453 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:44:50.872880 [125979970619776] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7293fb7153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7293fb77c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7293fb729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7293fb72934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7293fb77e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7293fb77fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7293fb780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7293fb78265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7293fb6d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7293fb785815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7293fb785a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7293fb6b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7293ff64d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x59b3f1588f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x59b3f158adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x59b3f151ae00,0x2e8e00]
+
+	php8.1[T][0x59b3f1608daa,0x3d6daa]
+
+	php8.1[T][0x59b3f160b3c1,0x3d93c1]
+
+	php8.1[T][0x59b3f1609976,0x3d7976]
+
+	php8.1[T][0x59b3f160c819,0x3da819]
+
+	php8.1[T][0x59b3f1359ec3,0x127ec3]
+
+	libc.so.6[T][0x7293fee29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7293fee29e40,0x29e40]
+
+
+2024-07-31 09:44:50.875660 [125979970619776] >> Error entry
+	[Handle: 98629422811984	ConvID: 70594263	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-31 09:47:38.007590 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:51:07.139154 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:52:11.512291 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:54:48.921352 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:55:01.515326 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:57:06.040691 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+2024-07-31 09:57:38.633708 [125979970619776] >> Info entry
+	Setting global logon timeout to 10
+                                                                                               
+**** Log file opened at 2024-08-01 07:08:45.584119 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 96994
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::e21d:c263:cee2:c01c
+Global trace level        : 0
+
+2024-08-01 07:08:45.582375 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:11:26.238509 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:12:07.126852 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:14:54.728112 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:15:39.406546 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:16:01.437673 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:19:59.648108 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:26:54.578757 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:29:06.239261 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:32:37.168254 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:32:53.686495 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:38:38.300931 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:45:21.307963 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:52:54.224577 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:53:15.225552 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:53:43.417810 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:53:54.465616 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:54:00.536683 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:54:26.359813 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 07:59:47.231702 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:00:02.470055 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:00:13.176831 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:02:01.903002 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:03:31.743493 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:05:05.129930 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:05:17.585590 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:05:37.038365 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:06:13.753756 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:11:22.527882 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:11:35.919752 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:11:44.150976 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:17:40.941106 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:18:57.352812 [128596509772160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-01 08:18:57.748735 [128596509772160] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x74f5315153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x74f53157c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x74f531529131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x74f53152934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x74f53157e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x74f53157fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x74f531580061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x74f53158265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x74f5314d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x74f531585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x74f531585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x74f5314b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x74f53547d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5e1a0377af7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5e1a0377cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5e1a0370ce00,0x2e8e00]
+
+	php8.1[T][0x5e1a037fadaa,0x3d6daa]
+
+	php8.1[T][0x5e1a037fd3c1,0x3d93c1]
+
+	php8.1[T][0x5e1a037fb976,0x3d7976]
+
+	php8.1[T][0x5e1a037fe819,0x3da819]
+
+	php8.1[T][0x5e1a0354bec3,0x127ec3]
+
+	libc.so.6[T][0x74f534c29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x74f534c29e40,0x29e40]
+
+
+2024-08-01 08:18:57.776114 [128596509772160] >> Error entry
+	[Handle: 103465843749152	ConvID: 51723652	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+
+**** Log file opened at 2024-08-02 08:42:47.599903 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 59330
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::e21d:c263:cee2:c01c
+Global trace level        : 0
+
+2024-08-02 08:42:47.598296 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:43:01.263744 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:44:32.803915 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:44:44.707013 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:46:37.505542 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:48:26.318273 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:49:01.713910 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:52:28.590217 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:52:45.307804 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:53:53.851176 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:54:05.435159 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:55:38.354243 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:57:26.081120 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 08:58:08.654174 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:00:25.312617 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:00:41.012090 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:01:00.755283 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:02:48.463157 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:03:04.217437 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:03:43.363236 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:04:23.676928 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:04:31.715737 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:04:54.803406 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:05:11.330027 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:05:39.947695 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:05:47.910440 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:06:07.156525 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:06:29.970598 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:08:13.075226 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:09:08.579121 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:10:04.795309 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:10:37.858683 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:11:23.127633 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:13:19.709801 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 09:14:31.301964 [135959301876096] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-02 13:20:44.846244 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 346462
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::e21d:c263:cee2:c01c
+Global trace level        : 0
+
+2024-08-02 13:20:44.845737 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:22:38.195353 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:23:27.282512 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:23:59.912137 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:24:41.148545 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:24:55.518708 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:25:16.893649 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+2024-08-02 13:25:43.509267 [129347965270400] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-06 08:29:07.711215 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 157711
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::e21d:c263:cee2:c01c
+Global trace level        : 0
+
+2024-08-06 08:29:07.702452 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:29:42.765912 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:30:35.777543 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:31:21.265577 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:32:03.053648 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:32:42.928675 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:36:14.512021 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:36:17.604708 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:36:22.482631 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:36:37.121115 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:39:48.788106 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:39:51.823651 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:39:55.414010 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:39:59.337628 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:40:00.984722 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:43:17.773908 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:43:21.174130 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:43:22.229349 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:43:23.527917 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:53:33.241383 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:54:39.935663 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:55:35.639730 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:55:45.719306 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:56:17.949459 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+2024-08-06 08:59:28.470263 [128673105926528] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-06 14:20:00.275255 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 512707
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::e21d:c263:cee2:c01c
+Global trace level        : 0
+
+2024-08-06 14:20:00.273665 [129434909079936] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-08 14:23:04.394164 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 649317
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-08 14:23:04.393772 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:24:08.394318 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:31:09.449792 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:31:30.868378 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:31:38.655183 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:31:46.311698 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:31:51.176223 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:33:09.606655 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:33:54.311221 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:34:46.512373 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-08 14:35:25.531550 [140014333004160] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-09 05:29:34.265377 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 58246
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-09 05:29:34.264880 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:30:41.643861 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:30:51.064742 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:30:57.537748 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:31:03.960030 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:36:10.601447 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:36:23.320332 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:36:34.815807 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:36:55.444092 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:37:37.144123 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 05:38:02.659796 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:32:49.745485 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:33:02.007477 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:34:32.570961 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:35:01.209142 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:35:25.589075 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:35:51.569451 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 09:36:39.005554 [126001695017344] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-09 12:42:45.776516 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 409601
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-09 12:42:45.775762 [132654311963008] >> Info entry
+	Setting global logon timeout to 10
+2024-08-09 12:43:02.201570 [132654311963008] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-12 09:10:41.983600 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 313286
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-12 09:10:41.983389 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:10:57.706339 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:11:34.586253 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:11:48.252611 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:11:57.877968 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:13:17.776631 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:13:24.517994 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:13:33.331287 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:14:26.421479 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:14:40.157862 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+2024-08-12 09:15:01.472641 [124061636381056] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-13 08:02:57.888837 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 152407
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-13 08:02:57.888586 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:04:56.223744 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:07:01.213625 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:07:15.430174 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:08:16.740301 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:08:31.959378 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:08:43.969160 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:09:04.675811 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:09:15.219125 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:09:25.331393 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:09:46.707428 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:13:51.960860 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 08:14:30.180095 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:09:29.534855 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:09:52.474469 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:10:58.844083 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:33:39.600750 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:44:15.856786 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:45:17.059637 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:49:16.178233 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:56:02.665521 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:58:24.780073 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:59:40.007271 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 09:59:59.055814 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:24:13.620724 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:24:56.016009 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:25:58.947048 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:28:02.758513 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:39:16.978047 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:39:30.818681 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:40:31.588328 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:40:51.011463 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:41:54.963428 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:41:58.050382 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:42:01.845776 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:42:13.278965 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:42:21.192590 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:49:05.855122 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:49:38.621949 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:50:17.045937 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:51:09.961892 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 10:52:00.723441 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:27.364114 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:34.118456 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:39.683424 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:44.844314 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:48.380828 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:52.059235 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 11:04:56.992404 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 13:24:46.989237 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+2024-08-13 13:26:03.803097 [128413934016896] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-15 08:20:02.700399 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 225275
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-15 08:20:02.698662 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:21:08.910816 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:22:23.979773 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:22:34.779953 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:22:47.403911 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:25:35.994901 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:27:19.259776 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:28:15.506408 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:29:06.124521 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:29:46.880956 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:30:32.086597 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:31:15.087816 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:32:04.142465 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:32:26.778971 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:34:49.744382 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:35:34.266339 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:36:58.697214 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:37:44.541318 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:41:43.608421 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:45:04.937864 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:45:32.482677 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:46:02.263763 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:46:17.561044 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:49:20.411544 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:51:30.361843 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:51:56.423450 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:53:19.693482 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:53:36.791254 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:54:01.806979 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:54:59.840116 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:55:55.241479 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:56:24.055968 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:57:02.993774 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:57:12.399061 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:57:24.585748 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:57:36.797478 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 08:58:05.903408 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 09:00:39.292948 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 09:00:57.054970 [130024592759168] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-15 11:42:01.925092 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 513300
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-15 11:42:01.924602 [126435916581248] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-15 12:03:10.144419 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 530070
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-15 12:03:10.144171 [128729098733952] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-15 15:18:33.668290 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 120114
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-15 15:18:33.666513 [131614632376704] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 15:29:48.045064 [131614632376704] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 15:30:18.529726 [131614632376704] >> Info entry
+	Setting global logon timeout to 10
+2024-08-15 15:30:32.466679 [131614632376704] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-16 08:40:14.710251 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 182642
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-16 08:40:14.709453 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:49:32.444595 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:49:48.303703 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:54:36.732550 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:58:00.635368 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:58:27.478727 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:58:33.787391 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:58:47.061204 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:59:13.766382 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 08:59:23.052791 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:00:40.154064 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:02:33.813966 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:06:08.600470 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:06:49.345251 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:07:31.815680 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:08:18.644991 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:08:32.369874 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:08:56.573960 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:12:13.046315 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:13:28.649235 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 09:14:21.624266 [125204525939072] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-16 12:40:47.252017 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 541899
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-16 12:40:47.251655 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:41:03.119739 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:41:14.121547 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:41:24.851388 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:41:42.013232 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:42:00.552650 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:42:20.307227 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:42:34.712476 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:42:41.399707 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:43:01.091878 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:44:12.231912 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:44:18.929430 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:44:31.864503 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 12:44:41.227945 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:02:29.935267 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:04:05.643937 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:31:41.757212 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:40:41.220690 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:41:45.623559 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:42:08.287227 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:42:14.541129 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:42:46.232066 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 14:49:22.607322 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+2024-08-16 15:10:01.272766 [125638818482560] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-29 17:43:49.754852 UTC-04:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/saprfc/public
+Program                   : php
+Process ID                : 730872
+User                      : root
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 5.14.0-362.24.1.el9_3.x86_64
+Hostname                  : LFRATER-ECMDEV
+IP address                : 172.19.8.253
+IPv6 address              : fe80::250:56ff:fe8e:3b0f
+Global trace level        : 0
+
+2024-08-29 17:43:49.754871 [140708887631680] >> Error entry
+	The UUID daemon (uuidd) is not active.
+Please ask your system administrator to activate uuidd according to SAP note 1391070.
+
+2024-08-29 17:43:49.754877 [140708887631680] >> Info entry
+	Did not find config file /home/saprfc/public/sapnwrfc.ini.
+2024-08-29 17:43:49.754927 [140708887631680] >> Info entry
+	Setting global logon timeout to 10
+2024-08-29 17:46:48.434877 [140708887631680] >> Info entry
+	Setting global logon timeout to 10
+2024-08-29 17:55:14.232055 [140708887631680] >> Info entry
+	Setting global logon timeout to 10
+2024-08-29 17:55:22.112048 [140708887631680] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-29 18:11:33.923717 UTC-04:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/saprfc/public
+Program                   : php
+Process ID                : 731518
+User                      : root
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 5.14.0-362.24.1.el9_3.x86_64
+Hostname                  : LFRATER-ECMDEV
+IP address                : 172.19.8.253
+IPv6 address              : fe80::250:56ff:fe8e:3b0f
+Global trace level        : 0
+
+2024-08-29 18:11:33.923739 [140101072181056] >> Error entry
+	The UUID daemon (uuidd) is not active.
+Please ask your system administrator to activate uuidd according to SAP note 1391070.
+
+2024-08-29 18:11:33.923746 [140101072181056] >> Info entry
+	Did not find config file /home/saprfc/public/sapnwrfc.ini.
+2024-08-29 18:11:33.923809 [140101072181056] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-29 18:12:52.254630 UTC-04:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/saprfc/public
+Program                   : php
+Process ID                : 731657
+User                      : root
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 5.14.0-362.24.1.el9_3.x86_64
+Hostname                  : LFRATER-ECMDEV
+IP address                : 172.19.8.253
+IPv6 address              : fe80::250:56ff:fe8e:3b0f
+Global trace level        : 0
+
+2024-08-29 18:12:52.254649 [140528541067072] >> Error entry
+	The UUID daemon (uuidd) is not active.
+Please ask your system administrator to activate uuidd according to SAP note 1391070.
+
+2024-08-29 18:12:52.254656 [140528541067072] >> Info entry
+	Did not find config file /home/saprfc/public/sapnwrfc.ini.
+2024-08-29 18:12:52.254710 [140528541067072] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-21 01:33:57.866687 UTC-04:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/saprfc/public
+Program                   : php
+Process ID                : 1382967
+User                      : root
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 5.14.0-362.24.1.el9_3.x86_64
+Hostname                  : LFRATER-ECMDEV
+IP address                : 172.19.8.253
+IPv6 address              : fe80::250:56ff:fe8e:3b0f
+Global trace level        : 0
+
+2024-09-21 01:33:57.866705 [140439188174656] >> Error entry
+	The UUID daemon (uuidd) is not active.
+Please ask your system administrator to activate uuidd according to SAP note 1391070.
+
+2024-09-21 01:33:57.866712 [140439188174656] >> Info entry
+	Did not find config file /home/saprfc/public/sapnwrfc.ini.
+2024-09-21 01:33:57.866760 [140439188174656] >> Info entry
+	Setting global logon timeout to 10
+2024-09-21 01:34:57.918436 [140439188174656] >> Error entry
+	[Handle: 94580229679328	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Sat Sep 21 01:34:57 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nibuf.cpp
+LINE        4636
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+2024-09-21 01:37:22.137935 [140439188174656] >> Info entry
+	Setting global logon timeout to 10
+2024-09-21 01:38:22.174433 [140439188174656] >> Error entry
+	[Handle: 94580229952912	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Sat Sep 21 01:38:22 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nibuf.cpp
+LINE        4636
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     4
+

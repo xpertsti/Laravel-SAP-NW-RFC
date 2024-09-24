@@ -1,0 +1,186 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Documentation",
+        "description": "Documentación de la API para mi proyecto",
+        "contact": {
+            "email": "support@miapp.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/v1/saprfc/avisos/consulta": {
+            "post": {
+                "tags": [
+                    "Avisos"
+                ],
+                "summary": "Consulta de avisos",
+                "description": "Este método consulta avisos utilizando la función RFC de SAP ZSGDEA_CONSULTA_AVISOS.",
+                "operationId": "233f33da69a84b33fd29ba696eb0a79e",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "iCentro": {
+                                        "description": "Centro (opcional)",
+                                        "type": "string",
+                                        "example": "0010"
+                                    },
+                                    "iFechaIni": {
+                                        "description": "Fecha de inicio",
+                                        "type": "string",
+                                        "format": "date",
+                                        "example": "2024-08-15"
+                                    },
+                                    "iHoraIni": {
+                                        "description": "Hora de inicio",
+                                        "type": "string",
+                                        "format": "time",
+                                        "example": "08:00:00"
+                                    },
+                                    "iFechaFin": {
+                                        "description": "Fecha de fin",
+                                        "type": "string",
+                                        "format": "date",
+                                        "example": "2024-08-15"
+                                    },
+                                    "iHoraFin": {
+                                        "description": "Hora de fin",
+                                        "type": "string",
+                                        "format": "time",
+                                        "example": "18:00:00"
+                                    },
+                                    "asttx": {
+                                        "description": "Estados (opcional)",
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "example": [
+                                            "estado1",
+                                            "estado2"
+                                        ]
+                                    },
+                                    "vkont": {
+                                        "description": "Cuentas de contrato (opcional)",
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "example": [
+                                            "cuenta1",
+                                            "cuenta2"
+                                        ]
+                                    },
+                                    "notifType": {
+                                        "description": "Tipos de notificación (opcional)",
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "example": [
+                                            "tipo1",
+                                            "tipo2"
+                                        ]
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Consulta exitosa",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "origin": {
+                                            "type": "string",
+                                            "example": "serverSapRfc"
+                                        },
+                                        "transactionId": {
+                                            "type": "string",
+                                            "example": "123456789"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "format": "date-time",
+                                            "example": "2024-08-15T14:30:00Z"
+                                        },
+                                        "status": {
+                                            "type": "boolean",
+                                            "example": true
+                                        },
+                                        "data": {
+                                            "description": "Datos retornados por SAP",
+                                            "type": "object"
+                                        },
+                                        "message": {
+                                            "type": "string",
+                                            "example": "success"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Solicitud incorrecta",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean",
+                                            "example": false
+                                        },
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Error en la solicitud"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Error en el servidor",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean",
+                                            "example": false
+                                        },
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Error interno del servidor"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Avisos",
+            "description": "Avisos"
+        }
+    ]
+}
